@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = 'http://103.175.219.241/crud/public';
+const API = 'https://teadeveloper.my.id';
 export const JsonList = async ({ url, param, token, page = 0 }) => {
     try {
         let pages;
